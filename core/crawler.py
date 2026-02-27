@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
 
 from utils.url_utils import normalize_url, is_in_scope
-from extractors.forms import extract_forms
-from extractors.params import extract_params
-from extractors.js import extract_js_endpoints
+from extractor.forms import extract_forms
+from extractor.params import extract_params
+from extractor.js import extract_js_endpoints
 
 
 class Crawler:
